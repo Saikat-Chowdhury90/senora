@@ -34,10 +34,10 @@ const Main = () => {
               <nav className="main-nav">
                 <ul className="main-ul">
                   <li>
-                    <a href="#">Home</a>
+                    <a href="/">Home</a>
                   </li>
                   <li>
-                    <a href="">About</a>
+                    <a href="/">About</a>
                   </li>
                   <li>
                     <a href="#portfolio">Portfolio</a>
@@ -46,7 +46,7 @@ const Main = () => {
                     <a href="#contact">Contact</a>
                   </li>
                   <li className="mag-glass">
-                    <a href="">
+                    <a href="/">
                       <i class="fa-solid fa-magnifying-glass"></i>
                     </a>
                   </li>

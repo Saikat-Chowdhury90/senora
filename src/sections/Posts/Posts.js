@@ -10,32 +10,32 @@ const Posts = () => {
           </div>
           <div className="card-contents">
             <div class="card">
-              <img src="https://picsum.photos/id/404/367/267" />
+              <img src="https://picsum.photos/id/404/367/267" alt="lorem" />
               <h3>Lorem ipsum</h3>
               <div className="focus-content">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  <br /> <a href="#">Link to source</a>
+                  
                 </p>
               </div>
             </div>
             <div className="card">
-              <img src="https://picsum.photos/id/404/367/267" />
+              <img src="https://picsum.photos/id/404/367/267" alt="lorem" />
               <h3>Lorem ipsum</h3>
               <div className="focus-content">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  <br /> <a href="#">Link to source</a>
+                 
                 </p>
               </div>
             </div>
             <div className="card">
-              <img src="https://picsum.photos/id/404/367/267" />
+              <img src="https://picsum.photos/id/404/367/267" alt="lorem" />
               <h3>Lorem ipsum</h3>
               <div className="focus-content">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  <br /> <a href="#">Link to source</a>
+                 
                 </p>
               </div>
             </div>

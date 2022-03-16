@@ -13,11 +13,11 @@ const Body = () => {
                     <div className="nav-bar">
                         <nav>
                             <ul className="lists">
-                                <li><a href="">All</a></li>
-                                <li><a href="">Art</a></li>
-                                <li><a href="">Branding</a></li>
-                                <li><a href="">Creative</a></li> 
-                                <li><a href="">Design</a></li>   
+                                <li><a href="/">All</a></li>
+                                <li><a href="/">Art</a></li>
+                                <li><a href="/">Branding</a></li>
+                                <li><a href="/">Creative</a></li> 
+                                <li><a href="/">Design</a></li>   
                             </ul>
                             
                         </nav>    
