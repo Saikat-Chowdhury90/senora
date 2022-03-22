@@ -16,7 +16,7 @@
     overflow: hidden;
   }
   
-  .card * {
+  .card {
     transition: 0.3s ease all;
   }
   
@@ -59,6 +59,7 @@
       display: flex;
       justify-content: center;
       align-content: center;
+      flex-wrap: wrap;
   }
   .card{
      margin-right: 5%;
