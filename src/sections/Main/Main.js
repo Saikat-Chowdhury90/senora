@@ -7,6 +7,9 @@ const Main = () => {
       <div className="parent">
         <div className="main-details">
           <div className="back-img">
+            <div className="main-img">
+              <img src={require("../../images/building.jpg")} alt="" />  
+            </div>
             <div className="left-img">
               <img src={require("../../images/back.jpg")} alt="boy" />
             </div>

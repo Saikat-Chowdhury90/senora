@@ -16,7 +16,7 @@
     overflow: hidden;
   }
   
-  .card {
+  .card * {
     transition: 0.3s ease all;
   }
   

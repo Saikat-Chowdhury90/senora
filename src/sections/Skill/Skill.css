@@ -64,7 +64,15 @@
       background-color: red;
   }
   @media screen and (max-width : 768px) and (min-width : 310px){
-      .skill-desc{
-          padding: 15px;
+      .skill-division{
+        display: block;
       }
+     .left{
+         width: 80vw;
+         margin-left: 23px;
+     }
+     .right{
+         width: 100vw;
+         margin-left: 2%;
+     }
   }

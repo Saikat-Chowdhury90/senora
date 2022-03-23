@@ -1,6 +1,6 @@
 html{
   scroll-behavior: smooth;
- overflow-x: hidden;
+ overflow-x: hidden !important;
 }
 body {
   margin: 0;
@@ -15,4 +15,9 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+@media screen and (max-width : 768px) and (min-width : 310px){
+  html{
+    overflow-x: hidden !important;
+  }
 }
