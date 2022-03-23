@@ -22,14 +22,14 @@
 }
 .left{
     background-color: yellow;
-    width: 50%;
+    width: 40vw;
     
 }
 .skill-desc{
     padding: 100px;
 }
 .right{
-    width: 50%;
+    width: 50vw;
 }
 .skills-acquire{
     width: 80%;
@@ -62,4 +62,9 @@
   .java{
       width: 80%;
       background-color: red;
+  }
+  @media screen and (max-width : 768px) and (min-width : 310px){
+      .skill-desc{
+          padding: 15px;
+      }
   }

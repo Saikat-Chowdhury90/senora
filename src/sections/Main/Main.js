@@ -1,6 +1,7 @@
 import React from "react";
 import "./Main.css";
 const Main = () => {
+  
   return (
     <div className="main-container">
       <div className="parent">
@@ -50,6 +51,7 @@ const Main = () => {
                       <i class="fa-solid fa-magnifying-glass"></i>
                     </a>
                   </li>
+                  
                 </ul>
               </nav>
             </div>

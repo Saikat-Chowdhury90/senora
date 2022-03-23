@@ -6,6 +6,7 @@ const Body = () => {
     <div className='body' id='portfolio'>
         <div className="parent">
             <div className="body-details">
+                <div>
                 <div className='header'>
                     <div className="heading">
                         <h1>Portfolio</h1>    
@@ -33,6 +34,9 @@ const Body = () => {
                         <img src={require("../../images/cardboard.jpg")} alt="cardboard" />
                 </div>  
             </div>    
+
+                </div>
+                
         </div>
         
     </div>
