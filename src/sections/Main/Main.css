@@ -166,12 +166,12 @@ text-align: left;
 /* Mobile Version */
 @media screen and (max-width : 768px) and (min-width : 310px){
     .main-container{
-        height: 100%;
+        height: 100vh;
     }
     .main-nav-bar{
         margin-left: 1%;
     }
-    .left-img{
+    .left-img img{
         display: none;
     }
     .back-img{
@@ -188,6 +188,31 @@ text-align: left;
       font-size: 10px;
       padding: 0;
   }
+  .intro-content{
+    position: absolute;
+    left: 2%;
+    top: 15%;
+    transform: translate3d(-580px,0,0);
+    animation: slide-left 1s ease;
+    animation-fill-mode: forwards;
+ }
+ .intro-heading h1{
+ color: white !important;
+ font-size: 22px;
+ text-align: left;
+
+ }
+ .view-btn button{
+    padding: 5px;
+    width: 150px;
+    margin-top: 30px;
+    margin-left: -10px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
 }
 
 
