@@ -232,27 +232,29 @@ text-align: left;
     font-weight: 600;
     cursor: pointer;
 }
-
+.right-img{
+    overflow: hidden;
+}
 .right-img div{
     position: absolute;
     right: 0;
     top: 10%;
    
-    /* transform: translate3d(650px,0,0); */
+    transform: translate3d(650px,0,0);
   
 }
 
 .right-img img{
     position: absolute;
     height: 150px;
-    width: 150px;
+    width: 140px;
     right: 0;
    
     border-radius: 30px;
 }
 .dog{
     top: 250px;
-    right: 0px !important;
+    right: 15px !important;
 }
 .couple{
     top: 510px;
