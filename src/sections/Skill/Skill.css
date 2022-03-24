@@ -64,15 +64,23 @@
       background-color: red;
   }
   @media screen and (max-width : 768px) and (min-width : 310px){
-      .skill-division{
+      
+    .skill-desc {
+        padding: 22px;
+    }
+    .skill-division{
         display: block;
       }
      .left{
-         width: 80vw;
-         margin-left: 23px;
+         width: 100vw;
+         margin-left: 0;
      }
      .right{
          width: 100vw;
          margin-left: 2%;
+         
+     }
+     .skill-para p{
+         text-align: justify;
      }
   }

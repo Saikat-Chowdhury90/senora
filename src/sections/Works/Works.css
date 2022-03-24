@@ -65,3 +65,12 @@ height: 200px;
     animation: slide-right 1s ease;
     animation-fill-mode: forwards;
 }
+@media screen and (max-width : 768px) and (min-width : 310px){
+  .work-container .slide-left{
+    animation: slide-left 1s ease forwards;
+  }
+  .work-container .slide-right{
+    animation: slide-right 1s ease forwards;
+    
+}
+}

@@ -191,7 +191,7 @@ text-align: left;
         padding: 0;
     }
   .main-ul li a{
-      font-size: 10px;
+      font-size: 13px;
       padding: 0;
   }
   .main-img{
@@ -213,8 +213,9 @@ text-align: left;
     left: 6%;
     top: 15%;
     transform: translate3d(-580px,0,0);
-    animation: slide-left 1s ease;
-    animation-fill-mode: forwards;
+    animation: slide-left 1s ease forwards;
+    opacity: 1;
+    
  }
  .intro-heading h1{
  color: white !important;
@@ -238,10 +239,11 @@ text-align: left;
 }
 .right-img div{
     position: absolute;
-    right: 0;
-    top: 10%;
+    right: -3%;
+    top: 0%;
    
     transform: translate3d(650px,0,0);
+    animation: slide-right 1s ease forwards;
   
 }
 
