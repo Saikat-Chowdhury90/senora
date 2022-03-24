@@ -1,11 +1,14 @@
 
 import './App.css';
-import Body from './sections/Body/Body';
-import Last from './sections/Last/Last';
-import Main from './sections/Main/Main';
-import Posts from './sections/Posts/Posts';
-import Skill from './sections/Skill/Skill';
-import Works from './sections/Works/Works';
+import {React , lazy} from 'react';
+
+const Main = lazy(() => import('./sections/Main/Main'));
+const Body = lazy(() => import('./sections/Body/Body'));
+const Last = lazy(() => import('./sections/Last/Last'));
+const Posts = lazy(() => import('./sections/Posts/Posts'));
+const Skill = lazy(() => import('./sections/Skill/Skill'));
+const Works = lazy(() => import('./sections/Works/Works'));
+
 
 function App() {
   return (
