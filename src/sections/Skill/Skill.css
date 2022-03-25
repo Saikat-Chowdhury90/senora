@@ -1,86 +1,117 @@
+.skill-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
 
-.skill-division{
+}
+.skill-content{
     display: flex;
+    /* justify-content: center;
+    align-content: center; */
 }
-.skill-p-container{
-    margin-top: 15%;
+.skill-display{
+    position: relative;
+    width: 65vw;
+    background-color: red;
 }
-.skill-heading{
-    margin-top: 3%;
-    margin-bottom: 3%;
+.skill-display-inner{
+    position: absolute;
+    background-color: transparent;
+    border: 2px solid white;
+    left: 20%;
+    top: 30%;
+    width: 600px;
 }
-.skill-bar{
-    margin-bottom: 20%;
+.skill-display-inner h1{
+    color: white;
+    word-spacing: 2px;
+    letter-spacing: 13px;
+    padding: 10px;
 }
-.percent{
+.skill-display-inner p{
+    text-align:center;
+    padding: 50px;
+    margin-bottom: 30px;
+    color: white;
+}
+.skill-cards{
     display: flex;
-    justify-content: space-around;
-}
-.percent span{
-    font-size: 2.5rem;
-    font-weight: 500;
-}
-.left{
-    background-color: yellow;
-    width: 40vw;
-    
-}
-.skill-desc{
-    padding: 100px;
-}
-.right{
     width: 50vw;
+    flex-wrap: wrap;
 }
-.skills-acquire{
-    width: 80%;
-    height: 10px;
-    margin: 18px;
-    background-color: grey;
-      border: 2px solid lightgray;
-    border-radius:0.8rem;
-    
+.card-skill {
+    width: 300px;
+    height: 280px;
+    padding: 0;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+    border-radius: 8px;
+    box-sizing: border-box;
+    overflow: hidden;
   }
-  .skills-acquire:hover{
-      box-shadow: 0px 0px 10px 6px grey;
+  
+  .card-skill * {
+    transition: 0.3s ease all;
   }
-  .wh{
-      width: 60%;
-      background-color: blue;
+  
+  .card-skill:hover{
+      cursor: pointer;
+      transform: scale(1.05);
   }
-  .percentage{
-      
-      height: inherit;
-      border-bottom-left-radius: inherit;
-      border-top-left-radius: inherit;
+  
+  .card-skill h3 {
+    margin: 0;
+    padding: 12px 12px 48px;
+    line-height: 32px;
+    font-weight: 500;
+    font-size: 20px;
   }
-  .skillname span{
-      color: white;
-      padding:5px 0px 0px 13px;
-      font-family:-webkit-pictograph;
-     
+  
+  
+  
+  .card p {
+    margin: 0;
+    line-height: 1.5;
   }
-  .java{
-      width: 80%;
-      background-color: red;
+  
+  .card:hover img, .card:focus-within img {
+    margin-top: -80px;
+    cursor: pointer;
   }
-  @media screen and (max-width : 768px) and (min-width : 310px){
-      
-    .skill-desc {
-        padding: 22px;
-    }
-    .skill-division{
-        display: block;
-      }
-     .left{
-         width: 100vw;
-         margin-left: 0;
-     }
-     .right{
-         width: 100vw;
-         margin-left: 2%;
-         
-     }
-     .skill-para p{
-         text-align: justify;
-     }
+  
+  .card:hover h3, .card:focus-within h3 {
+    padding: 8px 12px 0;
+    cursor: pointer;
+  }
+  .card-contents{
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      flex-wrap: wrap;
+  }
+  .card-skill{
+
+     margin-right: 1%;
+     margin-bottom: 1%;
+  }
+  .para{
+      margin-left: 25%;
+      width: 50%;
+  }
+  .ui{
+      background-color: rgb(206, 162, 247);
+  }
+  .web{
+      background-color: rgb(255, 180, 180);
+  }
+  .app-dev{
+      background-color: yellow;
+  }
+  .type{
+      background-color: lightgreen;
+  }
+  .project{
+    background-color: cornflowerblue;
+  }
+  .blog{
+      background-color: skyblue;
   }
