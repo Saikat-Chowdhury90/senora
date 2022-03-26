@@ -15,7 +15,7 @@
     }
   }
 .main-container{
-    background-color: #0348C6;
+    background:linear-gradient(#1048B9,#0B4ABE) ;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -31,7 +31,7 @@
 }
 .left-img img{
     background-size:cover;
-    height: 100vh;
+    height: 120vh;
     
     left: 0;
     position: absolute;
