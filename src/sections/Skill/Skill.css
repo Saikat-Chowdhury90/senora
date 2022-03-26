@@ -115,3 +115,33 @@
   .blog{
       background-color: skyblue;
   }
+  @media screen and (max-width : 768px) and (min-width : 310px){
+    .skill-content{
+      display: block;
+    }
+    .skill-cards{
+        display: none;
+    }
+    .skill-display{
+       height: 70vh;
+       padding: 0;
+       margin: 0;
+       width: 100vw;
+    }
+    .skill-display-inner{
+        position: absolute;
+        background-color: transparent;
+        /* border: 2px solid white; */
+        left: 1.35%;
+        top: 10%;
+        width: 95.9vw;
+    }
+    .skill-display-inner h1{
+        font-size: 20px;
+        letter-spacing: 4px;
+    }
+    .skill-display-inner p{
+        text-align: justify;
+        padding: 40px;
+    }
+  }

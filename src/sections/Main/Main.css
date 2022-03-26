@@ -15,11 +15,11 @@
     }
   }
 .main-container{
-    background-color: #0349CA;
+    background-color: #0348C6;
     display: flex;
     justify-content: center;
     align-content: center;
-    height: 120vh;
+    height: 100vh;
    overflow: hidden;
    cursor: pointer;
     
