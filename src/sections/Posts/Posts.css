@@ -172,4 +172,84 @@
   .para{
     display: none;
   }
+  .posts-content{
+    display: block;
+  }
+  .work-exp{
+    background-color: rgb(84, 153, 233);
+    width: 100vw;
+    
+    padding-top: 30px;
+    color: white;
+  }
+  .b-card{
+    height: 170px;
+    display: block;
+  }
+  .b-card h4{
+    text-align: center !important;
+  }
+  .b-card p{
+  font-size: 15px;
+  }
+  .button-content button{
+    width: 150px;
+    margin-top: 10%;
+    margin-left: 25%;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  .timeline-divider
+{
+    position:absolute;
+    height: 90%;
+    width: 0;
+    border: 3px dashed rgb(181, 181, 231);
+    left: 5%;
+    top: 10%;
+}
+.timeline-divider-right{
+  position:absolute;
+  height: 90%;
+  width: 0;
+  border: 3px dashed rgb(181, 181, 231);
+  left: 5%;
+  top: 10%
+}
+
+
+.focus-content p{
+  display: none;
+}
+
+.card {
+  width: 250px;
+  height: 280px;
+  padding: 0;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+  border-radius: 8px;
+  box-sizing: border-box;
+  overflow: visible;
+  
+}
+.card-contents {
+  width: 100vw;
+  position: relative !important;
+  display: flex !important;
+  user-select: none !important;
+  flex-wrap: nowrap !important;
+  overflow-x: scroll !important ;
+  scroll-behavior: smooth !important;
+  justify-content: space-around;
+  align-content: space-around;
+  overflow-y: scroll !important;
+}
+.latest-posts{
+  overflow: visible !important;
+}
+.card-1{
+  margin-left: 100%;
+}
 }

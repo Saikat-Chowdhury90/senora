@@ -91,7 +91,7 @@ const Posts = () => {
               <h1>Latest Posts</h1>
             </div>
             <div className="card-contents">
-              <div class="card">
+              <div className="card card-1">
                 <img src="https://picsum.photos/id/404/367/267" alt="lorem" />
                 <h3>Lorem ipsum</h3>
                 <div className="focus-content">
