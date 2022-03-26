@@ -52,8 +52,8 @@
 
 .right-img img{
     position: absolute;
-    height: 200px;
-    width: 220px;
+    height: 180px;
+    width: 200px;
     right: 0;
    
     border-radius: 30px;
@@ -137,7 +137,7 @@
 .intro-content{
    position: absolute;
    left: 6%;
-   top: 65%;
+   top: 55%;
    opacity: 0;
    transition: all 0.5s;
 }
