@@ -185,6 +185,7 @@
   .b-card{
     height: 170px;
     display: block;
+    margin-top: 13%;
   }
   .b-card h4{
     text-align: center !important;
@@ -204,7 +205,7 @@
   .timeline-divider
 {
     position:absolute;
-    height: 90%;
+    height: 95%;
     width: 0;
     border: 3px dashed rgb(181, 181, 231);
     left: 5%;
@@ -212,7 +213,7 @@
 }
 .timeline-divider-right{
   position:absolute;
-  height: 90%;
+  height: 95%;
   width: 0;
   border: 3px dashed rgb(181, 181, 231);
   left: 5%;
